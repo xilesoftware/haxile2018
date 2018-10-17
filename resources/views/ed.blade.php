@@ -8,5 +8,8 @@
 
 <h1 style="bold">Hello world</h1>
 
+<button id="button" type="button">Press me!</button>
+
+
 </body>
 </html>

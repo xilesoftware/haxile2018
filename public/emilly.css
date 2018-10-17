@@ -1,8 +1,14 @@
 
 body {
 	background-image: url("/vaxt.jpg");
-	background-color:black;
 	color: black; 
     font-size: 72px;
     text-align: center;
 } 
+
+#button{
+	font-size: 40px;
+	border: 2px solid;
+	font-size:25px;
+	background-color:white;
+}
