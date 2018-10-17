@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<title>Emszan!</title>
     <link rel="stylesheet" href="/emz.css">
 </head>
 <body>
