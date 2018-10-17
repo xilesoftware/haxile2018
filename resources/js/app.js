@@ -15,6 +15,7 @@ window.Vue = require('vue');
  */
 
 Vue.component('notification-list-component', require('./components/NotificationList.vue'));
+Vue.component('send-notification-component', require('./components/SendNotification.vue'));
 
 const app = new Vue({
     el: '#app'
