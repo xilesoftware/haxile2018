@@ -15,4 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/ed', function () {
+    return view('ed');
+});
+
+Route::get('/emz', function () {
+    return view('emz');
+});
+
 Route::post('/message', 'MessageController@store')->name('message.store');
