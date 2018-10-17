@@ -23,3 +23,5 @@ Route::get('/ed', function () {
 Route::get('/emz', function () {
     return view('emz');
 });
+
+Route::post('/message', 'MessageController@store')->name('message.store');

@@ -85,6 +85,8 @@
                     </div>
 
                     <notification-list-component></notification-list-component>
+
+                    <send-notification-component></send-notification-component>
                 </div>
             </div>
         </div>
