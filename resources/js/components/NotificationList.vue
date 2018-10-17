@@ -6,6 +6,12 @@
 
 <script>
     export default {
+        methods() {
+            // sendMessage(message) {
+            //     //
+            // }
+        },
+
         mounted() {
             console.log('Component mounted.')
         }
