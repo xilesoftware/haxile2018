@@ -1,6 +1,8 @@
+
 body {
+	background-image: url("/vaxt.jpg");
 	background-color:black;
-	color: dodgerblue; 
+	color: black; 
     font-size: 72px;
     text-align: center;
 } 
