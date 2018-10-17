@@ -19,8 +19,8 @@
                 console.log('listenMessages');
                 Echo.channel('messages')
                     .listen('.message.sent', (e) => {
-                        console.log(e.content);
-                        $self.messages.push(e.content);
+                        console.log(e.message);
+                        $self.messages.push(e.message);
                     });
             }
         },
