@@ -6,7 +6,8 @@
 </head>
 <body>
     <h1>Hello World!</h1>
-    <p>Let's make a push <button>Push</button></p>
+    <p>Let's make a push 
+    <input type="text"><button>Push</button></p>
     
 </body>
 </html>
