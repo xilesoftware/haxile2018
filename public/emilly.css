@@ -1,4 +1,6 @@
 body {
-    color: dodgerblue;
+	background-color:black;
+	color: dodgerblue; 
     font-size: 72px;
-}
+    text-align: center;
+} 
