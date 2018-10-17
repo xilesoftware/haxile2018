@@ -6,8 +6,11 @@
 </head>
 <body>
     <h1>Hello World!</h1>
-    <p>Let's make a push 
-    <input type="text"><button>Push</button></p>
+    <div class= chat>
+    <p>Let's make a push </p>
+    <input type="text"><button>Push</button>
+    </div>
+  
     
 </body>
 </html>
