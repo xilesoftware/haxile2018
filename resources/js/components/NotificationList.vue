@@ -1,9 +1,13 @@
 <template>
     <div class="container">
-        Notification list
-        <ul>
-            <li v-for="(message, index) in messages" :key="index">{{ message }}</li>
-        </ul>
+        <div class="row">
+            <h5>Messages</h5>
+            <div class="col-md-8" style="height: 200px; overflow-y: scroll;">
+                <div v-for="(message, index) in messages" :key="index" class="col-md-12">
+                    <p><i>{{ message.time }}</i>: {{ message.content }}</p>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -20,7 +24,11 @@
                 Echo.channel('messages')
                     .listen('.message.sent', (e) => {
                         console.log(e.message);
-                        $self.messages.push(e.message);
+                        let time = new Date();
+                        $self.messages.push({
+                            time: time.getHours() + ':' + time.getMinutes() + ':' + time.getSeconds(),
+                            content: e.message
+                        });
                     });
             }
         },
