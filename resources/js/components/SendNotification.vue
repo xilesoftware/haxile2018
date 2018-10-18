@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        Send message
-        <input name="message" v-model="message" type="text">
+        Message
+        <input name="message" v-model="message" type="text" @keyup.enter="sendMessage">
         <button class="btn btn-success" @click="sendMessage">Send Message</button>
     </div>
 </template>
